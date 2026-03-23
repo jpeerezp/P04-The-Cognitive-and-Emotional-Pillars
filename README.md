@@ -91,10 +91,6 @@ This prompt captures the "invisible" neural and psychological metrics required t
 * **Timing:** Post MatchDay 1 (Recovery Phase) and Pre MatchDay 2 (Match Preparation).
 * **Next step:** `P05` — Final Digital Twin Dashboard assembly.
 
----
-
-### 🔄 Data Pipeline Flow
-
 ```
 Wellness/CNS App Sync → [P04 runs] → Neural Readiness Table Created → Combined with P01, P02, P03 → 360° Digital Twin Dashboard
 ```
@@ -150,7 +146,7 @@ The **Lead Sports Psychologist** reviews the `Neural Readiness` status. If a key
 
 ## 🔄 Version History
 
-### v1.0 — Initial Draft 
+### v1.0 — Initial Draft ✅ Current
 **Date:** March 14 2026
 
 **Prompt:** 
