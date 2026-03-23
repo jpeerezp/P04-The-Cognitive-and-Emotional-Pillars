@@ -4,7 +4,7 @@
 
 **Workflow step:** Step 4 of 4
 
-**Current version:** 
+**Current version:** 1.0
 
 **Status:** ✅ Tested and approved
 
@@ -15,19 +15,6 @@
 ## 📌 Prompt Text (v1.0 — current)
 
 ```
-# P04 · The Cognitive & Emotional Pillars
-
-**Section:** 01 — The Digital Twin Foundation
-**Workflow step:** Step 4 of 4
-**Current version:** v1.0 
-**Status:** ✅ Tested and approved
-**Last updated:** March 2026
-
----
-
-## 📌 Prompt Text (v1.0 — current)
-
-```text
 Role: You are a Lead Sports Psychologist and Performance Consultant for an elite European football club.
 
 Action: Distribute the "Cognitive and Emotional Pillar" (every input) for Player ID [player_id] in a "Neural & Emotional Readiness" table. Return in JSON format.
