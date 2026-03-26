@@ -182,186 +182,336 @@ Result: Successfully maps psychological and CNS data to individual player IDs.
 
 ```
 {
-  "physical_pillar_analysis": [
+  "neural_emotional_readiness_report": [
     {
       "player_id": "824001",
-      "metrics": [
-        { "metric": "Current Distance", "value": "4.2 km", "status": "Low" },
-        { "metric": "High-Speed Running (HSR)", "value": "12 m", "status": "Low" },
-        { "metric": "Sprint distance", "value": "0 m", "status": "N/A" },
-        { "metric": "Accelerations", "value": 12, "status": "Optimal" },
-        { "metric": "Decelerations", "value": 15, "status": "Optimal" },
-        { "metric": "Player Load", "value": 185, "status": "Low" },
-        { "metric": "Metabolic Power", "value": 2.1, "status": "Low" }
-      ]
+      "position": "GK",
+      "metrics": {
+        "reaction_time_ms": 210,
+        "cognitive_flexibility_pct": 95,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.2,
+        "hrv_score": 68,
+        "rpe_score": 4,
+        "stress_level": 2,
+        "fatigue_level": 3,
+        "mood_level": 8
+      }
     },
     {
       "player_id": "824002",
-      "metrics": [
-        { "metric": "Current Distance", "value": "10.8 km", "status": "High" },
-        { "metric": "High-Speed Running (HSR)", "value": "840 m", "status": "High" },
-        { "metric": "Sprint distance", "value": "310 m", "status": "High" },
-        { "metric": "Accelerations", "value": 45, "status": "Elevated" },
-        { "metric": "Decelerations", "value": 52, "status": "Elevated" },
-        { "metric": "Player Load", "value": 840, "status": "High" },
-        { "metric": "Metabolic Power", "value": 10.5, "status": "High" }
-      ]
+      "position": "RB",
+      "metrics": {
+        "reaction_time_ms": 245,
+        "cognitive_flexibility_pct": 82,
+        "neural_readiness": "Red",
+        "sleep_architecture_hr": 6.1,
+        "hrv_score": 52,
+        "rpe_score": 8,
+        "stress_level": 4,
+        "fatigue_level": 5,
+        "mood_level": 6
+      }
     },
     {
       "player_id": "824003",
-      "metrics": [
-        { "metric": "Current Distance", "value": "9.5 km", "status": "Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "320 m", "status": "Moderate" },
-        { "metric": "Sprint distance", "value": "120 m", "status": "Moderate" },
-        { "metric": "Accelerations", "value": 22, "status": "Moderate" },
-        { "metric": "Decelerations", "value": 31, "status": "Moderate" },
-        { "metric": "Player Load", "value": 690, "status": "Moderate" },
-        { "metric": "Metabolic Power", "value": 8.8, "status": "Moderate" }
-      ]
+      "position": "CB",
+      "metrics": {
+        "reaction_time_ms": 230,
+        "cognitive_flexibility_pct": 88,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 7.0,
+        "hrv_score": 58,
+        "rpe_score": 7,
+        "stress_level": 3,
+        "fatigue_level": 4,
+        "mood_level": 7
+      }
     },
     {
       "player_id": "824004",
-      "metrics": [
-        { "metric": "Current Distance", "value": "9.7 km", "status": "Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "290 m", "status": "Moderate" },
-        { "metric": "Sprint distance", "value": "115 m", "status": "Moderate" },
-        { "metric": "Accelerations", "value": 25, "status": "Moderate" },
-        { "metric": "Decelerations", "value": 28, "status": "Moderate" },
-        { "metric": "Player Load", "value": 710, "status": "Moderate" },
-        { "metric": "Metabolic Power", "value": 8.9, "status": "Moderate" }
-      ]
+      "position": "CB",
+      "metrics": {
+        "reaction_time_ms": 238,
+        "cognitive_flexibility_pct": 85,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 6.8,
+        "hrv_score": 55,
+        "rpe_score": 7,
+        "stress_level": 3,
+        "fatigue_level": 4,
+        "mood_level": 7
+      }
     },
     {
       "player_id": "824005",
-      "metrics": [
-        { "metric": "Current Distance", "value": "9.1 km", "status": "Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "790 m", "status": "High" },
-        { "metric": "Sprint distance", "value": "285 m", "status": "High" },
-        { "metric": "Accelerations", "value": 38, "status": "Elevated" },
-        { "metric": "Decelerations", "value": 41, "status": "Elevated" },
-        { "metric": "Player Load", "value": 780, "status": "High" },
-        { "metric": "Metabolic Power", "value": 10.1, "status": "High" }
-      ]
+      "position": "LB",
+      "metrics": {
+        "reaction_time_ms": 255,
+        "cognitive_flexibility_pct": 78,
+        "neural_readiness": "Red",
+        "sleep_architecture_hr": 5.5,
+        "hrv_score": 49,
+        "rpe_score": 9,
+        "stress_level": 5,
+        "fatigue_level": 6,
+        "mood_level": 5
+      }
     },
     {
       "player_id": "824006",
-      "metrics": [
-        { "metric": "Current Distance", "value": "11.9 km", "status": "Very High" },
-        { "metric": "High-Speed Running (HSR)", "value": "610 m", "status": "Moderate" },
-        { "metric": "Sprint distance", "value": "90 m", "status": "Low" },
-        { "metric": "Accelerations", "value": 58, "status": "Very High" },
-        { "metric": "Decelerations", "value": 65, "status": "Very High" },
-        { "metric": "Player Load", "value": 910, "status": "Very High" },
-        { "metric": "Metabolic Power", "value": 11.2, "status": "Very High" }
-      ]
+      "position": "CDM",
+      "metrics": {
+        "reaction_time_ms": 268,
+        "cognitive_flexibility_pct": 74,
+        "neural_readiness": "Red",
+        "sleep_architecture_hr": 6.2,
+        "hrv_score": 42,
+        "rpe_score": 9,
+        "stress_level": 4,
+        "fatigue_level": 6,
+        "mood_level": 6
+      }
     },
     {
       "player_id": "824007",
-      "metrics": [
-        { "metric": "Current Distance", "value": "12.4 km", "status": "Critical" },
-        { "metric": "High-Speed Running (HSR)", "value": "920 m", "status": "Very High" },
-        { "metric": "Sprint distance", "value": "180 m", "status": "Moderate" },
-        { "metric": "Accelerations", "value": 62, "status": "Critical" },
-        { "metric": "Decelerations", "value": 74, "status": "Critical" },
-        { "metric": "Player Load", "value": 985, "status": "Critical" },
-        { "metric": "Metabolic Power", "value": 12.0, "status": "Critical" }
-      ]
+      "position": "CM",
+      "metrics": {
+        "reaction_time_ms": 275,
+        "cognitive_flexibility_pct": 71,
+        "neural_readiness": "Red",
+        "sleep_architecture_hr": 5.8,
+        "hrv_score": 40,
+        "rpe_score": 10,
+        "stress_level": 5,
+        "fatigue_level": 7,
+        "mood_level": 5
+      }
     },
     {
       "player_id": "824008",
-      "metrics": [
-        { "metric": "Current Distance", "value": "11.1 km", "status": "High" },
-        { "metric": "High-Speed Running (HSR)", "value": "880 m", "status": "Very High" },
-        { "metric": "Sprint distance", "value": "195 m", "status": "Moderate" },
-        { "metric": "Accelerations", "value": 55, "status": "Very High" },
-        { "metric": "Decelerations", "value": 68, "status": "Very High" },
-        { "metric": "Player Load", "value": 890, "status": "High" },
-        { "metric": "Metabolic Power", "value": 11.5, "status": "Very High" }
-      ]
+      "position": "CM",
+      "metrics": {
+        "reaction_time_ms": 262,
+        "cognitive_flexibility_pct": 75,
+        "neural_readiness": "Red",
+        "sleep_architecture_hr": 6.0,
+        "hrv_score": 44,
+        "rpe_score": 9,
+        "stress_level": 4,
+        "fatigue_level": 6,
+        "mood_level": 6
+      }
     },
     {
       "player_id": "824009",
-      "metrics": [
-        { "metric": "Current Distance", "value": "10.2 km", "status": "Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "1050 m", "status": "Critical" },
-        { "metric": "Sprint distance", "value": "410 m", "status": "Critical" },
-        { "metric": "Accelerations", "value": 51, "status": "High" },
-        { "metric": "Decelerations", "value": 48, "status": "High" },
-        { "metric": "Player Load", "value": 920, "status": "High" },
-        { "metric": "Metabolic Power", "value": 11.8, "status": "Very High" }
-      ]
+      "position": "RW",
+      "metrics": {
+        "reaction_time_ms": 250,
+        "cognitive_flexibility_pct": 80,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 6.5,
+        "hrv_score": 48,
+        "rpe_score": 8,
+        "stress_level": 4,
+        "fatigue_level": 5,
+        "mood_level": 7
+      }
     },
     {
       "player_id": "824010",
-      "metrics": [
-        { "metric": "Current Distance", "value": "10.5 km", "status": "Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "810 m", "status": "High" },
-        { "metric": "Sprint distance", "value": "380 m", "status": "High" },
-        { "metric": "Accelerations", "value": 48, "status": "High" },
-        { "metric": "Decelerations", "value": 42, "status": "Moderate" },
-        { "metric": "Player Load", "value": 850, "status": "High" },
-        { "metric": "Metabolic Power", "value": 11.0, "status": "High" }
-      ]
+      "position": "ST",
+      "metrics": {
+        "reaction_time_ms": 242,
+        "cognitive_flexibility_pct": 84,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 7.2,
+        "hrv_score": 51,
+        "rpe_score": 8,
+        "stress_level": 3,
+        "fatigue_level": 5,
+        "mood_level": 7
+      }
     },
     {
       "player_id": "824011",
-      "metrics": [
-        { "metric": "Current Distance", "value": "7.8 km", "status": "Low-Moderate" },
-        { "metric": "High-Speed Running (HSR)", "value": "910 m", "status": "Very High" },
-        { "metric": "Sprint distance", "value": "340 m", "status": "High" },
-        { "metric": "Accelerations", "value": 35, "status": "Moderate" },
-        { "metric": "Decelerations", "value": 38, "status": "Moderate" },
-        { "metric": "Player Load", "value": 720, "status": "Moderate" },
-        { "metric": "Metabolic Power", "value": 10.4, "status": "High" }
-      ]
+      "position": "LW",
+      "metrics": {
+        "reaction_time_ms": 235,
+        "cognitive_flexibility_pct": 86,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 7.5,
+        "hrv_score": 56,
+        "rpe_score": 7,
+        "stress_level": 3,
+        "fatigue_level": 4,
+        "mood_level": 8
+      }
     },
     {
       "player_id": "824012",
-      "metrics": [
-        { "metric": "Current Distance", "value": "3.2 km", "status": "Low" },
-        { "metric": "High-Speed Running (HSR)", "value": "280 m", "status": "Low" },
-        { "metric": "Sprint distance", "value": "95 m", "status": "Low" },
-        { "metric": "Accelerations", "value": 18, "status": "Low" },
-        { "metric": "Decelerations", "value": 22, "status": "Low" },
-        { "metric": "Player Load", "value": 240, "status": "Low" },
-        { "metric": "Metabolic Power", "value": 9.2, "status": "Moderate" }
-      ]
+      "position": "CM",
+      "metrics": {
+        "reaction_time_ms": 225,
+        "cognitive_flexibility_pct": 90,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 7.8,
+        "hrv_score": 62,
+        "rpe_score": 6,
+        "stress_level": 2,
+        "fatigue_level": 3,
+        "mood_level": 8
+      }
     },
     {
       "player_id": "824013",
-      "metrics": [
-        { "metric": "Current Distance", "value": "2.1 km", "status": "Very Low" },
-        { "metric": "High-Speed Running (HSR)", "value": "190 m", "status": "Low" },
-        { "metric": "Sprint distance", "value": "60 m", "status": "Low" },
-        { "metric": "Accelerations", "value": 12, "status": "Low" },
-        { "metric": "Decelerations", "value": 14, "status": "Low" },
-        { "metric": "Player Load", "value": 160, "status": "Very Low" },
-        { "metric": "Metabolic Power", "value": 8.5, "status": "Moderate" }
-      ]
+      "position": "RB",
+      "metrics": {
+        "reaction_time_ms": 220,
+        "cognitive_flexibility_pct": 92,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.0,
+        "hrv_score": 65,
+        "rpe_score": 5,
+        "stress_level": 2,
+        "fatigue_level": 2,
+        "mood_level": 9
+      }
     },
     {
       "player_id": "824014",
-      "metrics": [
-        { "metric": "Current Distance", "value": "1.2 km", "status": "Minimal" },
-        { "metric": "High-Speed Running (HSR)", "value": "85 m", "status": "Minimal" },
-        { "metric": "Sprint distance", "value": "30 m", "status": "Minimal" },
-        { "metric": "Accelerations", "value": 8, "status": "Minimal" },
-        { "metric": "Decelerations", "value": 10, "status": "Minimal" },
-        { "metric": "Player Load", "value": 95, "status": "Minimal" },
-        { "metric": "Metabolic Power", "value": 8.1, "status": "Low" }
-      ]
+      "position": "LW",
+      "metrics": {
+        "reaction_time_ms": 218,
+        "cognitive_flexibility_pct": 94,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.1,
+        "hrv_score": 67,
+        "rpe_score": 4,
+        "stress_level": 2,
+        "fatigue_level": 2,
+        "mood_level": 9
+      }
     },
     {
       "player_id": "824015",
-      "metrics": [
-        { "metric": "Current Distance", "value": "0 km", "status": "No Load" },
-        { "metric": "High-Speed Running (HSR)", "value": "0 m", "status": "No Load" },
-        { "metric": "Sprint distance", "value": "0 m", "status": "No Load" },
-        { "metric": "Accelerations", "value": 0, "status": "No Load" },
-        { "metric": "Decelerations", "value": 0, "status": "No Load" },
-        { "metric": "Player Load", "value": 0, "status": "No Load" },
-        { "metric": "Metabolic Power", "value": 0, "status": "No Load" }
-      ]
+      "position": "GK",
+      "metrics": {
+        "reaction_time_ms": 205,
+        "cognitive_flexibility_pct": 98,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.5,
+        "hrv_score": 72,
+        "rpe_score": 0,
+        "stress_level": 1,
+        "fatigue_level": 1,
+        "mood_level": 10
+      }
+    },
+    {
+      "player_id": "824016",
+      "position": "CB",
+      "metrics": {
+        "reaction_time_ms": 208,
+        "cognitive_flexibility_pct": 97,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.3,
+        "hrv_score": 70,
+        "rpe_score": 0,
+        "stress_level": 2,
+        "fatigue_level": 2,
+        "mood_level": 9
+      }
+    },
+    {
+      "player_id": "824017",
+      "position": "LB",
+      "metrics": {
+        "reaction_time_ms": 202,
+        "cognitive_flexibility_pct": 99,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.8,
+        "hrv_score": 74,
+        "rpe_score": 0,
+        "stress_level": 1,
+        "fatigue_level": 1,
+        "mood_level": 10
+      }
+    },
+    {
+      "player_id": "824018",
+      "position": "CDM",
+      "metrics": {
+        "reaction_time_ms": 212,
+        "cognitive_flexibility_pct": 96,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.0,
+        "hrv_score": 69,
+        "rpe_score": 0,
+        "stress_level": 2,
+        "fatigue_level": 2,
+        "mood_level": 9
+      }
+    },
+    {
+      "player_id": "824019",
+      "position": "AM",
+      "metrics": {
+        "reaction_time_ms": 209,
+        "cognitive_flexibility_pct": 97,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.4,
+        "hrv_score": 71,
+        "rpe_score": 0,
+        "stress_level": 1,
+        "fatigue_level": 1,
+        "mood_level": 10
+      }
+    },
+    {
+      "player_id": "824020",
+      "position": "ST",
+      "metrics": {
+        "reaction_time_ms": 220,
+        "cognitive_flexibility_pct": 92,
+        "neural_readiness": "Moderate",
+        "sleep_architecture_hr": 7.5,
+        "hrv_score": 65,
+        "rpe_score": 0,
+        "stress_level": 3,
+        "fatigue_level": 3,
+        "mood_level": 8
+      }
+    },
+    {
+      "player_id": "824021",
+      "position": "RW",
+      "metrics": {
+        "reaction_time_ms": 200,
+        "cognitive_flexibility_pct": 99,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.9,
+        "hrv_score": 75,
+        "rpe_score": 0,
+        "stress_level": 1,
+        "fatigue_level": 1,
+        "mood_level": 10
+      }
+    },
+    {
+      "player_id": "824022",
+      "position": "CB",
+      "metrics": {
+        "reaction_time_ms": 204,
+        "cognitive_flexibility_pct": 98,
+        "neural_readiness": "Optimal",
+        "sleep_architecture_hr": 8.6,
+        "hrv_score": 73,
+        "rpe_score": 0,
+        "stress_level": 1,
+        "fatigue_level": 1,
+        "mood_level": 10
+      }
     }
   ]
 }
